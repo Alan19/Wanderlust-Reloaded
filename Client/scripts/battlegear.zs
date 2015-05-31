@@ -7,28 +7,28 @@ recipes.removeShapeless(<minecraft:nether_star>);
  #Wood
  recipes.remove(<battlegear2:dagger.wood>);
  recipes.addShaped(<battlegear2:dagger.wood>,
-  [[null, null, <ore:plankWood>],
-   [null, <battlegear2:spear.wood>, null]]);
+  [[<ore:plankWood>],
+   [<ore:stick>]]);
  #Stone
  recipes.remove(<battlegear2:dagger.stone>);
  recipes.addShaped(<battlegear2:dagger.stone>,
-  [[null, null, <ore:cobblestone>],
-   [null, <battlegear2:spear.wood>, null]]);
+  [[<ore:cobblestone>],
+   [<ore:stick>]]);
  #Iron
  recipes.remove(<battlegear2:dagger.iron>);
  recipes.addShaped(<battlegear2:dagger.iron>,
-  [[null, null, <minecraft:iron_ingot>],
-   [null, <battlegear2:spear.wood>, null]]);
+  [[<minecraft:iron_ingot>],
+   [<ore:stick>]]);
  #Gold
  recipes.remove(<battlegear2:dagger.gold>);
  recipes.addShaped(<battlegear2:dagger.gold>,
-  [[null, null, <minecraft:gold_ingot>],
-   [null, <battlegear2:spear.wood>, null]]);
+  [[<minecraft:gold_ingot>],
+   [<ore:stick>]]);
  #Diamond
  recipes.remove(<battlegear2:dagger.diamond>);
  recipes.addShaped(<battlegear2:dagger.diamond>,
-  [[null, null, <minecraft:diamond>],
-   [null, <battlegear2:spear.wood>, null]]);
+  [[<minecraft:diamond>],
+   [<ore:stick>]]);
   
 #Balance for Chains
 recipes.remove(<battlegear2:chain>);

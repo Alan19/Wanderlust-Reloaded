@@ -1,5 +1,5 @@
-#New Recipe for the Withering Arrow
-mods.thermalexpansion.Pulverizer.removeRecipe(<denseores:block0>);
-
+#
+#mods.thermalexpansion.Pulverizer.removeRecipe(<denseores:block0>);
+<ore:denseoreIron>.add(<denseores:block0>);
  
   

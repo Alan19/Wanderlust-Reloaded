@@ -1,7 +1,7 @@
 [
   {
     "address": "irc.esper.net",
-    "nick": "IGN|%USERNAME%",
+    "nick": "Belathus|IG",
     "bot": {
       "ident": "EiraIRC",
       "description": "EiraIRC Bot"
@@ -11,7 +11,7 @@
     },
     "channels": [
       {
-        "name": ""
+        "name": "#WLR"
       }
     ]
   }

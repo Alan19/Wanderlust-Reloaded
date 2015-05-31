@@ -36,28 +36,28 @@ recipes.addShaped(<Thaumcraft:ItemManaBean>,
  
 #Nugget Transmutation Support for AOBD2 and CustomItems nuggets
  #Zinc
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <Steamcraft:steamcraftNugget:1> * 3, <ore:nuggetZinc>, "metallum 2, lux 1");
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <Steamcraft:steamcraftNugget:1> * 3, <ore:nuggetZinc>, "metallum 2, lux 1");
  #Dark Iron
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <customitems:dark_iron_nugget> * 3, <ore:nuggetDarkiron>, "metallum 2, tenebrae 1");
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <customitems:dark_iron_nugget> * 3, <ore:nuggetDarkiron>, "metallum 2, tenebrae 1");
  #Yellorium
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <customitems:yellorium_nugget> * 3, <ore:nuggetYellorium>, "metallum 2, venenum 1");
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <customitems:yellorium_nugget> * 3, <ore:nuggetYellorium>, "metallum 2, venenum 1");
  #Aluminium
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <TConstruct:materials:22> * 3, <ore:nuggetAluminum>, "metallum 2, aer 1");
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <TConstruct:materials:22> * 3, <ore:nuggetAluminum>, "metallum 2, aer 1");
  #Platinum
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <ThermalFoundation:material:101> * 3, <ore:nuggetPlatinum>, "metallum 2, lucrum 1"); 
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <ThermalFoundation:material:101> * 3, <ore:nuggetPlatinum>, "metallum 2, lucrum 1"); 
  #Mithril
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <ThermalFoundation:material:102> * 3, <ore:nuggetMithril>, "metallum 2, praecantatio 1"); 
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <ThermalFoundation:material:102> * 3, <ore:nuggetMithril>, "metallum 2, praecantatio 1"); 
  #Osmium
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <customitems:osmium_nugget> * 3, <ore:nuggetOsmium>, "metallum 2, terra 1"); 
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <customitems:osmium_nugget> * 3, <ore:nuggetOsmium>, "metallum 2, terra 1"); 
 
  #Ferrous
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <ThermalFoundation:material:100> * 3, <ore:nuggetNickel>, "metallum 2, vacuos 1"); 
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <ThermalFoundation:material:100> * 3, <ore:nuggetNickel>, "metallum 2, vacuos 1"); 
  #Ardite
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <TConstruct:materials:29> * 3, <ore:nuggetArdite>, "metallum 2, telum 1"); 
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <TConstruct:materials:29> * 3, <ore:nuggetArdite>, "metallum 2, telum 1"); 
  #Cobalt
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <TConstruct:materials:28> * 3, <ore:nuggetCobalt>, "metallum 2, perfodio 1"); 
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <TConstruct:materials:28> * 3, <ore:nuggetCobalt>, "metallum 2, perfodio 1"); 
  #Rutile
- mods.thaumcraft.Crucible.addRecipe("TRANSORE", <Mariculture:materials:37> * 3, <ore:nuggetRutile>, "metallum 2, perditio 1"); 
+ #mods.thaumcraft.Crucible.addRecipe("TRANSORE", <Mariculture:materials:37> * 3, <ore:nuggetRutile>, "metallum 2, perditio 1"); 
  
 #Furnace recipe for Wand Caps back into their native form
  #Vanilla

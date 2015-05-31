@@ -757,6 +757,6 @@
 //	mods.thaumcraft.Aspects.add(<ThaumicTinkerer:infusedGrain:1>, "ignis 3");
 //	mods.thaumcraft.Aspects.add(<ThaumicTinkerer:infusedGrain:2>, "terra 3");
 //	mods.thaumcraft.Aspects.add(<ThaumicTinkerer:infusedGrain:3>, "aqua 3");/
-//	mods.thaumcraft.Aspects.set(<aobd:dustFzDarkIron>, "ignis 1, metallum 3");
-//	mods.thaumcraft.Aspects.set(<Thaumcraft:ItemNugget>, "metallum 1");
-//	mods.thaumcraft.Aspects.set(<factorization:dark_iron_ingot>, "metallum 4");
+	mods.thaumcraft.Aspects.set(<aobd:dustFzDarkIron>, "ignis 1, metallum 3");
+	mods.thaumcraft.Aspects.set(<Thaumcraft:ItemNugget>, "metallum 1");
+	mods.thaumcraft.Aspects.remove(<factorization:dark_iron_ingot>, "ignus 3, potentia 3");
