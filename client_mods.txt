@@ -7,3 +7,4 @@ These mods need to be removed from the server.zip:
 -WAILA Harvestability
 -CustomMainMenu
 -ResourceLoader
+-TCNodeTracker
