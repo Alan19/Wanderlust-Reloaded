@@ -1,7 +1,7 @@
 [
   {
     "address": "irc.esper.net",
-    "nick": "Belathus|IG",
+    "nick": "%USERNAME%|IG",
     "bot": {
       "ident": "EiraIRC",
       "description": "EiraIRC Bot"
