@@ -1,2 +1,2 @@
 #Disabling BC Quarry because of lag
-recipes.remove(<BuildCraft|Factory:machineBlock>);
+#recipes.remove(<BuildCraft|Builders:machineBlock>);

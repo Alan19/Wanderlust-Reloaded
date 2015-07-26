@@ -41,9 +41,17 @@ recipes.addShaped(<MekanismGenerators:Generator:6>,
   [<Mekanism:EnergyTablet:*>, <Mekanism:ControlCircuit:2>, <Mekanism:EnergyTablet:*>]]);
    
 #Disabling acquirement of Steel with Mekanism
-#mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
-#mods.mekanism.Infuser.removeRecipe(<Mekanism:Dust:5>);
+mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
+mods.mekanism.Infuser.removeRecipe(<Mekanism:Dust:5>);
 
+#Changing the steel casing recipe to use aluminum brass.
+recipes.remove(<Mekanism:BasicBlock:8>);
+recipes.addShaped(<Mekanism:BasicBlock:8>,
+ [[null, <ore:ingotAluminumBrass>, null],
+  [<ore:ingotAluminumBrass>, <ore:ingotOsmium>, <ore:ingotAluminumBrass>],
+  [null, <ore:ingotAluminumBrass>, null]]);
+<Mekanism:BasicBlock:8>.displayName = "Aluminum Brass Casing";
+  
 #Osmium Nugget Support
 recipes.addShaped(<Mekanism:Ingot:1>,
  [[<customitems:osmium_nugget>, <customitems:osmium_nugget>, <customitems:osmium_nugget>],

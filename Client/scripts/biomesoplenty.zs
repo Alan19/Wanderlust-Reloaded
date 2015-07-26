@@ -106,5 +106,11 @@ blockMeatRaw.remove(<BiomesOPlenty:flesh>);
 furnace.addRecipe(<minecraft:glass>, <BiomesOPlenty:hardSand>, 0.5); #smelt hardened sand to glass
 furnace.addRecipe(<ThermalFoundation:material:64>, <BiomesOPlenty:gemOre:11>, 0.5); #smelt malachite to copper
 
+#Coral to dye
+recipes.addShapeless(<minecraft:dye:14>, [<BiomesOPlenty:coral1:13>]);
+recipes.addShapeless(<minecraft:dye:9>, [<BiomesOPlenty:coral1:12>]);
+recipes.addShapeless(<minecraft:dye:5>, [<BiomesOPlenty:coral1:15>]);
+recipes.addShapeless(<BiomesOPlenty:misc:5>, [<BiomesOPlenty:coral1:14>]);
+
 #Add persimmon to the oredictionary
 oreDict.cropPersimmon.add(<BiomesOPlenty:food:8>);
