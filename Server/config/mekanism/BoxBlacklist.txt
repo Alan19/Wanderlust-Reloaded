@@ -1,15 +1,42 @@
 # Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
 # Proper syntax is "NAME:META". Example (for stone):
 # stone:0
+
+# Vanilla
+minecraft:mob_spawner:*
+
+# Thaumcraft
+Thaumcraft:blockWarded:0
+Thaumcraft:blockCosmeticOpaque:2
+Thaumcraft:blockArcaneDoor:*
+Thaumcraft:blockStoneDevice:*
+Thaumcraft:blockAiry:0
 Thaumcraft:blockCosmeticSolid:8
-Thaumcraft:blockAiry
-HardcoreEnderExpansion:energy_cluster
-minecraft:mob_spawner
-ThermalExpansion:Strongbox
-ThermalExpansion:Tesseract
-ThermalExpansion:Cache
-EnderIO:blockTransceiver
-CarpentersBlocks:blockCarpentersSafe
-ExtraUtilities:generator
-ExtraUtilities:generator.8
-ExtraUtilities:generator.64
+
+# Hardcore Ender Expansion
+HardcoreEnderExpansion:energy_cluster:*
+
+
+# Thermal Expansion
+ThermalExpansion:Strongbox:*
+ThermalExpansion:Tesseract:*
+ThermalExpansion:Cache:*
+
+# EnderIO
+EnderIO:blockTransceiver:*
+
+# Extra Utilities
+ExtraUtilities:generator:*
+ExtraUtilities:generator.8:*
+ExtraUtilities:generator.64:*
+
+# Carpenter's Blocks
+CarpentersBlocks:blockCarpentersSafe:*
+
+# IC2
+IC2:blockPersonal:*
+
+# Twilight Forest
+TwilightForest:tile.TFBossSpawner:*
+TwilightForest:tile.TFTowerDevice:*
+TwilightForest:tile.TFTowerTranslucent:*
