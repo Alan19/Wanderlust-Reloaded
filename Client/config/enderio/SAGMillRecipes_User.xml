@@ -48,11 +48,24 @@ found in the core file.
   <recipeGroup name="Railcraft">
     <recipe name="Firestone" energyCost="16000">
       <input>
-        <itemStack modID="Railcraft" itemName="tile.railcraft.ore" itemMeta="5"/>
+        <itemStack modID="Railcraft" itemName="ore" itemMeta="5"/>
       </input>
       <output>
         <itemStack modID="minecraft" itemName="netherrack" number="1"/>
         <itemStack modID="Railcraft" itemName="firestone.raw" number="1" chance="0.2" />       
+      </output>
+    </recipe>
+  </recipeGroup>
+  <recipeGroup name="HarvestCraft">
+    <recipe name="Salt Ore" energyCost="2400">
+      <input>
+        <itemStack modID="harvestcraft" itemName="salt" itemMeta="0"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="cobblestone" number="1"/>
+        <itemStack modID="harvestcraft" itemName="saltItem" number="4"/>   
+        <itemStack modID="harvestcraft" itemName="saltItem" number="1" chance="0.5"/>  
+        <itemStack modID="harvestcraft" itemName="saltItem" number="1" chance="0.1"/>    
       </output>
     </recipe>
   </recipeGroup>
