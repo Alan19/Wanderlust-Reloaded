@@ -40,9 +40,9 @@ recipes.addShaped(<MekanismGenerators:Generator:6>,
   [<ore:ingotAluminum>, <BigReactors:BRTurbinePart:4>, <ore:ingotAluminum>],
   [<Mekanism:EnergyTablet:*>, <Mekanism:ControlCircuit:2>, <Mekanism:EnergyTablet:*>]]);
    
-#Disabling acquirement of Steel with Mekanism
-mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
-mods.mekanism.Infuser.removeRecipe(<Mekanism:Dust:5>);
+#Disabling acquirement of Steel with Mekanism (Cannot be done until later versions of Modtweaker 2)
+#mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
+#mods.mekanism.Infuser.removeRecipe(<Mekanism:Dust:5>);
 
 #Changing the steel casing recipe to use aluminum brass.
 recipes.remove(<Mekanism:BasicBlock:8>);
@@ -51,7 +51,18 @@ recipes.addShaped(<Mekanism:BasicBlock:8>,
   [<ore:ingotAluminumBrass>, <ore:ingotOsmium>, <ore:ingotAluminumBrass>],
   [null, <ore:ingotAluminumBrass>, null]]);
 <Mekanism:BasicBlock:8>.displayName = "Aluminum Brass Casing";
-  
+ 
+#Adding extra crusher recipes to use either TE machine frame or EIO machine chassis
+recipes.addShaped(<Mekanism:MachineBlock:3>,
+ [[<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>],
+  [<ore:bucketLava>, <EnderIO:itemMachinePart:0>, <ore:bucketLava>],
+  [<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>]]);
+
+recipes.addShaped(<Mekanism:MachineBlock:3>,
+ [[<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>],
+  [<ore:bucketLava>, <ThermalExpansion:Frame:0>, <ore:bucketLava>],
+  [<ore:dustRedstone>, <ore:craftingPiston>, <ore:dustRedstone>]]);
+
 #Osmium Nugget Support
 recipes.addShaped(<Mekanism:Ingot:1>,
  [[<customitems:osmium_nugget>, <customitems:osmium_nugget>, <customitems:osmium_nugget>],
