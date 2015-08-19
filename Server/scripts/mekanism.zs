@@ -41,8 +41,8 @@ recipes.addShaped(<MekanismGenerators:Generator:6>,
   [<Mekanism:EnergyTablet:*>, <Mekanism:ControlCircuit:2>, <Mekanism:EnergyTablet:*>]]);
    
 #Disabling acquirement of Steel with Mekanism (Cannot be done until later versions of Modtweaker 2)
-#mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
-#mods.mekanism.Infuser.removeRecipe(<Mekanism:Dust:5>);
+mods.mekanism.Infuser.removeRecipe(<Mekanism:EnrichedIron>);
+mods.mekanism.Infuser.removeRecipe(<Mekanism:Dust:5>);
 
 #Changing the steel casing recipe to use aluminum brass.
 recipes.remove(<Mekanism:BasicBlock:8>);

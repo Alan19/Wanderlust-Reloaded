@@ -56,11 +56,14 @@ recipes.remove(<Railcraft:cube:11>);	#lead block
 recipes.remove(<TConstruct:MetalBlock:3>);	# block of copper
 recipes.remove(<TConstruct:MetalBlock:4>);	# block of bronze
 recipes.remove(<TConstruct:MetalBlock:5>);	# block of tin
+recipes.remove(<TConstruct:MetalBlock:6>);	# block of aluminum
 recipes.remove(<TConstruct:MetalBlock:9>);	# block of steel
 recipes.remove(<TConstruct:materials:9>);	# copper ingot
 recipes.remove(<TConstruct:materials:10>);	# tin ingot
+recipes.remove(<TConstruct:materials:11>);	# aluminum ingot
 recipes.remove(<TConstruct:materials:13>);	# bronze ingot
 recipes.remove(<TConstruct:materials:16>);	# steel ingot
+recipes.remove(<TConstruct:materials:22>);	# aluminum nugget
 recipes.remove(<TConstruct:materials:31>);	# bronze nugget
 
 # Flaxbeard's Steam Power
@@ -79,8 +82,12 @@ recipes.remove(<Forestry:resourceStorage:2>);    # tin
 recipes.remove(<Forestry:resourceStorage:3>);    # bronze
 
 # Mariculture
-recipes.remove(<Mariculture:materials>);   # aluminum
+#recipes.remove(<Mariculture:materials>);   # aluminum
 recipes.remove(<Mariculture:materials:4>); # copper
-recipes.remove(<Mariculture:materials:34>); # aluminum nugget
+#recipes.remove(<Mariculture:materials:34>); # aluminum nugget
 recipes.remove(<Mariculture:materials:38>); # copper nugget
 recipes.remove(<Mariculture:metals>); # copper
+
+#Project:Red
+recipes.remove(<ProjRed|Core:projectred.core.part:52>); #Copper Ingot
+recipes.remove(<ProjRed|Exploration:projectred.exploration.stone:8>); #Block of Copper

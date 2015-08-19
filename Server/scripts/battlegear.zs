@@ -4,31 +4,31 @@ recipes.addShapeless(<battlegear2:mb.arrow:4>, [<BiomesOPlenty:plants:13>, <mine
 recipes.removeShapeless(<minecraft:nether_star>);
 
 #Recipe Change of Daggers
- #Wood
  recipes.remove(<battlegear2:dagger.wood>);
+ recipes.remove(<battlegear2:dagger.stone>);
+ recipes.remove(<battlegear2:dagger.iron>);
+ recipes.remove(<battlegear2:dagger.gold>);
+ recipes.remove(<battlegear2:dagger.diamond>);
+ #Wood
  recipes.addShaped(<battlegear2:dagger.wood>,
   [[<ore:plankWood>],
-   [<ore:stick>]]);
+   [<ore:stickWood>]]);
  #Stone
- recipes.remove(<battlegear2:dagger.stone>);
  recipes.addShaped(<battlegear2:dagger.stone>,
   [[<ore:cobblestone>],
-   [<ore:stick>]]);
+   [<ore:stickWood>]]);
  #Iron
- recipes.remove(<battlegear2:dagger.iron>);
  recipes.addShaped(<battlegear2:dagger.iron>,
-  [[<minecraft:iron_ingot>],
-   [<ore:stick>]]);
+  [[<ore:ingotIron>],
+   [<ore:stickWood>]]);
  #Gold
- recipes.remove(<battlegear2:dagger.gold>);
  recipes.addShaped(<battlegear2:dagger.gold>,
-  [[<minecraft:gold_ingot>],
-   [<ore:stick>]]);
+  [[<ore:ingotGold>],
+   [<ore:stickWood>]]);
  #Diamond
- recipes.remove(<battlegear2:dagger.diamond>);
  recipes.addShaped(<battlegear2:dagger.diamond>,
   [[<minecraft:diamond>],
-   [<ore:stick>]]);
+   [<ore:stickWood>]]);
   
 #Balance for Chains
 recipes.remove(<battlegear2:chain>);
