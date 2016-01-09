@@ -741,7 +741,7 @@
    #mods.thaumcraft.Aspects.set(<BiomesOPlenty:bopBucket>.withTag({Fluid: {Amount: 1000, FluidName: "poison"}}), "vacuos 1, metallum 1, aqua 2, venenum 4 ");       #)
    #mods.thaumcraft.Aspects.set(<BiomesOPlenty:bopBucket>.withTag({Fluid: {Amount: 1000, FluidName: "hell_blood"}}), "vacuos 1, metallum 1, aqua 2, victus 4 ");    #)> Only scans as honey bucket - needs more investigation
    mods.thaumcraft.Aspects.set(<BiomesOPlenty:bopBucket>.withTag({Fluid: {Amount: 1000, FluidName: "honey"}}), "vacuos 1, metallum 1, victus 4, permutatio 4 ");    #) 
- #Jars
+ #Music Discs
  mods.thaumcraft.Aspects.set(<BiomesOPlenty:record_wanderer>, "lucrum 4, sensus 4, iter 4, aer 4");
  mods.thaumcraft.Aspects.set(<BiomesOPlenty:record_corruption>, "lucrum 4, sensus 4, vitium 4, infernus 4");
  #Wading Boots & Flippers
